@@ -3,7 +3,9 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=%2338C2FF&size=50&center=true&vCenter=true&height=60&width=600&lines=Heyyy!+I'm+MonochromeCode;Java+Developer;Welcome+to+my+profile!" alt="Title"></img>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1000&color=38C2FF&center=true&vCenter=true&width=600&lines=Hey!+I'm+MonochromeCode;Java+Backend+Developer;Welcome+to+my+GitHub+profile" alt="Typing SVG" />
+  <br/>
+  <img src="https://komarev.com/ghpvc/?username=MonochromeCode&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
 </div>
 
 <br>
@@ -14,161 +16,81 @@
 
 ## <img src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/wave.gif" width="50px" height="50px"></img> About Me
 
-<table align="center">
-<tr border="none">
-<td width="50%" align="left">
+- 👋 Hi, I'm **MonochromeCode**
+- 🔭 Currently working on `Java` backend development
+- 🌱 Currently learning `Spring Cloud` and distributed systems
+- 💻 Public repositories: `6` · On GitHub since `2019`
+- 🐍 Also build `Python` automation / quant tools in spare time
+- ⚙️ Daily stack: `Java` · `Spring Boot` · `MySQL` · `Redis` · `Maven`
+- 📫 Email: [flyyon@163.com](mailto:flyyon@163.com)
+- 💬 Ask me about **Java**, **Spring**, **backend**, **microservices**
 
-- 🔭 I’m currently working on `Java` Backend Development.
-- 🌱 I’m currently learning `Spring Cloud` and `distributed systems`
-- 👯 I’m looking to collaborate with Backend and Fullstack Java Developers.
-- 🤔 I’m looking for help with Open source Contribution.
-- ⚙️ I use daily: `.java`, `Spring Boot`, `MySQL`, `Redis`, `Maven`
-- 💬 Ping me about **Java**, **Spring**, **backend**, **microservices**
+## <img src="https://media.giphy.com/media/M4NykXxUE0HAcK7UJ6/giphy.gif" width="50px" height="50px"></img> Tech Stack
 
-</td>
-<td width="50%" align="center">
-  <img align="center" alt="Coding" width="450" src="https://repository-images.githubusercontent.com/588181932/e36ec678-7984-4cdd-8e4c-a3932772ff8e">
-</td>
-</tr>
-</table>
-
-## <img src="https://media.giphy.com/media/M4NykXxUE0HAcK7UJ6/giphy.gif" width="50px" height="50px"></img> Languages and Tools
-
-<p align="left">
-    <a href="https://www.java.com" target="_blank" rel="noreferrer">
-        <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
-                alt="java"
-                width="40"
-                height="40"
-        />
-    </a>
-    <a href="https://spring.io/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40" />
-    </a>
-    <a href="https://maven.apache.org/" target="_blank" rel="noreferrer">
-        <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/maven/maven-original.svg"
-                alt="maven"
-                width="40"
-                height="40"
-        />
-    </a>
-    <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-        <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
-                alt="mysql"
-                width="40"
-                height="40"
-        />
-    </a>
-    <a href="https://redis.io" target="_blank" rel="noreferrer">
-        <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg"
-                alt="redis"
-                width="40"
-                height="40"
-        />
-    </a>
-    <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-        <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-                alt="mongodb"
-                width="40"
-                height="40"
-        />
-    </a>
-    <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-        <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
-                alt="docker"
-                width="40"
-                height="40"
-        />
-    </a>
-    <a href="https://kubernetes.io/" target="_blank" rel="noreferrer">
-        <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-plain.svg"
-                alt="kubernetes"
-                width="40"
-                height="40"
-        />
-    </a>
-    <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40" />
-    </a>
-    <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-        <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg"
-                alt="linux"
-                width="40"
-                height="40"
-        />
-    </a>
-    <a href="https://www.jenkins.io" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40" />
-    </a>
-    <a href="https://nginx.org/" target="_blank" rel="noreferrer">
-        <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg"
-                alt="nginx"
-                width="40"
-                height="40"
-        />
-    </a>
-    <a href="https://www.rabbitmq.com/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitmq" width="40" height="40" />
-    </a>
-    <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer">
-        <img
-                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apachekafka/apachekafka-original.svg"
-                alt="kafka"
-                width="40"
-                height="40"
-        />
-    </a>
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
+  <img src="https://img.shields.io/badge/Maven-%23C71A36.svg?style=for-the-badge&logo=apachemaven&logoColor=white" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50px" height="50px"> My Statistics
+## 📌 Featured Projects
 
-<table align="center">
-<tr border="none">
-<td width="50%" align="center">
+| Project | Description | Stars |
+| --- | --- | --- |
+| [xueqiu_qmt_follower](https://github.com/MonochromeCode/xueqiu_qmt_follower) | Auto-follow Xueqiu portfolios with QMT | ⭐ 16 |
+| [xueqiu_monitor](https://github.com/MonochromeCode/xueqiu_monitor) | Monitor Xueqiu portfolio changes via DingTalk | ⭐ 5 |
+| [xueqiu_token](https://github.com/MonochromeCode/xueqiu_token) | Simple Xueqiu token fetcher | ⭐ 3 |
+| [Java](https://github.com/MonochromeCode/Java) | Java learning notes and code collection | ⭐ 0 |
 
-  <img  align="center"  src="https://github-readme-stats.vercel.app/api?username=MonochromeCode&theme=chartreuse-dark&show_icons=true&count_private=true" />
-  <br></br>
-  <img  title="🔥 Get streak stats for your profile at git.io/streak-stats" alt="Mark streak" src="https://github-readme-streak-stats.herokuapp.com/?user=MonochromeCode&theme=chartreuse-dark&hide_border=false" /> 
-</td>
-<td width="50%" align="center">
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50px" height="50px"> GitHub Stats
 
-  <img  align="center"  src="https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=MonochromeCode&theme=chartreuse-dark&hide_border=false&no-bg=true&no-frame=true&langs_count=10"/>
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MonochromeCode&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MonochromeCode&layout=compact&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&langs_count=8" />
+</div>
 
-  </td>
-</tr>
-</table>
+<br/>
 
-<p >
-    <picture align="center">
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/github-contribution-grid-snake.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/github-contribution-grid-snake.svg">
-      <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/github-contribution-grid-snake.svg">
-    </picture>
+<div align="center">
+  <img src="https://streak-stats.demolab.com?user=MonochromeCode&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MonochromeCode&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+</div>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/github-contribution-grid-snake.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/github-contribution-grid-snake.svg">
+  </picture>
 </p>
 
-## <img src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/handshake.gif" width="70px" height="40px"> Connect Me Via
+## <img src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/handshake.gif" width="70px" height="40px"> Connect
 
 <p align="center">
   <a href="https://github.com/MonochromeCode" target="_blank">
-    <img align="center" alt="MonochromeCode | GitHub" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-  </a> &nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/GitHub-MonochromeCode-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:flyyon@163.com">
+    <img src="https://img.shields.io/badge/Email-flyyon%40163.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
 </p>
 
-
 <div align="center">
-  :heart_eyes: Thanks for watching my profile! Have a nice day! :wink: <br/>
+  Thanks for visiting! Have a nice day! 😄 <br/>
   &copy; 2026 MonochromeCode
 </div>
-
 
 ---
 

@@ -5,10 +5,10 @@
 <br>
 
 <div align="center">
-    <img src="./assets/fly.webp" height="120px" />
+    <img src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/fly.webp" height="120px" />
 </div>
 
-## <img src="./assets/wave.gif" width="50px" height="50px"></img> About Me
+## <img src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/wave.gif" width="50px" height="50px"></img> About Me
 
 <table align="center">
 <tr border="none">
@@ -145,19 +145,19 @@
 
 <p >
     <picture align="center">
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/github-contribution-grid-snake.svg">
-      <source media="(prefers-color-scheme: light)" srcset="./assets/github-contribution-grid-snake.svg">
-      <img alt="github contribution grid snake animation" src="./assets/github-contribution-grid-snake.svg">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/github-contribution-grid-snake.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/github-contribution-grid-snake.svg">
+      <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/github-contribution-grid-snake.svg">
     </picture>
 </p>
 
-## <img src='./assets/handshake.gif' width="70px" height="40px"> Connect Me Via
+## <img src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/handshake.gif" width="70px" height="40px"> Connect Me Via
 
 <p align="center">
   <a href="https://github.com/MonochromeCode" target="_blank">
-    <img align="center" alt="MonochromeCode | GitHub" width="26px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/1024px-Github-desktop-logo-symbol.svg.png" />
+    <img align="center" alt="MonochromeCode | GitHub" width="26px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
   </a> &nbsp;&nbsp;
-<p>
+</p>
 
 
 <div align="center">

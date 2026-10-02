@@ -91,7 +91,3 @@
   Thanks for visiting! Have a nice day! 😄 <br/>
   &copy; 2026 MonochromeCode
 </div>
-
----
-
-Last Edited on 2026/10/02

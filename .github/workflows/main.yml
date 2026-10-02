@@ -3,14 +3,14 @@
 name: Generate Animation
 
 on:
-  # run automatically every 12 hours
+  # run automatically every 12 hours (UTC)
   schedule:
     - cron: "30 8,23 * * *"
 
   # allows to manually run the job at any time
   workflow_dispatch:
 
-  # 推送时重新运行程序
+  # 推送到 main 时重新生成
   push:
     branches:
       - main
@@ -18,16 +18,19 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Generate Snake
         uses: Platane/snk@v3
         id: snake-animation
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: MonochromeCode
           outputs: |
             ./assets/github-contribution-grid-snake.gif
             ./assets/github-contribution-grid-snake.svg
@@ -36,4 +39,6 @@ jobs:
       - name: Push to GitHub
         uses: EndBug/add-and-commit@v9
         with:
-          message: 'Generate Github contribution heatmap animation'
+          add: "assets"
+          default_author: github_actions
+          message: "Generate Github contribution heatmap animation"

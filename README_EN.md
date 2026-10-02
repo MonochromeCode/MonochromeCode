@@ -25,19 +25,18 @@
 - 📫 Email: [flyyon@163.com](mailto:flyyon@163.com)
 - 💬 Ask me about **Java**, **Spring**, **backend**, **microservices**
 
-## <img src="https://media.giphy.com/media/M4NykXxUE0HAcK7UJ6/giphy.gif" width="50px" height="50px"></img> Tech Stack
+## Tech Stack
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white" />
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Maven-%23C71A36.svg?style=for-the-badge&logo=apachemaven&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="java" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="spring" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" alt="maven" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="40" height="40" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="40" height="40" />
 </p>
 
 ## 📌 Featured Projects
@@ -49,11 +48,11 @@
 | [xueqiu_token](https://github.com/MonochromeCode/xueqiu_token) | Simple Xueqiu token fetcher | ⭐ 3 |
 | [Java](https://github.com/MonochromeCode/Java) | Java learning notes and code collection | ⭐ 0 |
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50px" height="50px"> GitHub Stats
+## GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MonochromeCode&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MonochromeCode&layout=compact&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&langs_count=8" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=MonochromeCode&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MonochromeCode&layout=compact&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&langs_count=8" alt="Top Languages" />
 </div>
 
 <br/>
@@ -65,7 +64,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MonochromeCode&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+  <img src="https://ghchart.rshah.org/38C2FF/MonochromeCode" alt="MonochromeCode GitHub contribution chart" />
 </div>
 
 <p align="center">
@@ -80,10 +79,11 @@
 
 <p align="center">
   <a href="https://github.com/MonochromeCode" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-MonochromeCode-181717?style=for-the-badge&logo=github&logoColor=white" />
+    <img align="center" alt="MonochromeCode | GitHub" width="32px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
   </a>
+  &nbsp;&nbsp;
   <a href="mailto:flyyon@163.com">
-    <img src="https://img.shields.io/badge/Email-flyyon%40163.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+    <img align="center" alt="MonochromeCode | Email" width="32px" src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/gmail.svg" />
   </a>
 </p>
 

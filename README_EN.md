@@ -1,9 +1,9 @@
 <div align="center">
-  <b>中文</b> | <a href="./README_EN.md">English</a>
+  <a href="./README.md">中文</a> | <b>English</b>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=%2338C2FF&size=50&center=true&vCenter=true&height=60&width=600&lines=%E4%BD%A0%E5%A5%BD%EF%BC%81%E6%88%91%E6%98%AF+MonochromeCode;%E6%88%91%E6%98%AF+Java+%E5%BC%80%E5%8F%91%E8%80%85;%E6%AC%A2%E8%BF%8E%E6%9D%A5%E5%88%B0%E6%88%91%E7%9A%84%E4%B8%BB%E9%A1%B5%EF%BC%81" alt="Title"></img>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Architects+Daughter&color=%2338C2FF&size=50&center=true&vCenter=true&height=60&width=600&lines=Heyyy!+I'm+MonochromeCode;Java+Developer;Welcome+to+my+profile!" alt="Title"></img>
 </div>
 
 <br>
@@ -12,18 +12,18 @@
     <img src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/fly.webp" height="120px" />
 </div>
 
-## <img src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/wave.gif" width="50px" height="50px"></img> 关于我
+## <img src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/wave.gif" width="50px" height="50px"></img> About Me
 
 <table align="center">
 <tr border="none">
 <td width="50%" align="left">
 
-- 🔭 目前从事 `Java` 后端开发
-- 🌱 正在学习 `Spring Cloud` 与分布式系统
-- 👯 希望与后端 / 全栈 Java 开发者协作
-- 🤔 欢迎一起参与开源贡献
-- ⚙️ 日常使用：`.java`、`Spring Boot`、`MySQL`、`Redis`、`Maven`
-- 💬 欢迎交流 **Java**、**Spring**、**后端**、**微服务**
+- 🔭 I’m currently working on `Java` Backend Development.
+- 🌱 I’m currently learning `Spring Cloud` and `distributed systems`
+- 👯 I’m looking to collaborate with Backend and Fullstack Java Developers.
+- 🤔 I’m looking for help with Open source Contribution.
+- ⚙️ I use daily: `.java`, `Spring Boot`, `MySQL`, `Redis`, `Maven`
+- 💬 Ping me about **Java**, **Spring**, **backend**, **microservices**
 
 </td>
 <td width="50%" align="center">
@@ -32,7 +32,7 @@
 </tr>
 </table>
 
-## <img src="https://media.giphy.com/media/M4NykXxUE0HAcK7UJ6/giphy.gif" width="50px" height="50px"></img> 语言与工具
+## <img src="https://media.giphy.com/media/M4NykXxUE0HAcK7UJ6/giphy.gif" width="50px" height="50px"></img> Languages and Tools
 
 <p align="left">
     <a href="https://www.java.com" target="_blank" rel="noreferrer">
@@ -129,7 +129,7 @@
     </a>
 </p>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50px" height="50px"> 我的数据
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="50px" height="50px"> My Statistics
 
 <table align="center">
 <tr border="none">
@@ -155,7 +155,7 @@
     </picture>
 </p>
 
-## <img src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/handshake.gif" width="70px" height="40px"> 联系我
+## <img src="https://raw.githubusercontent.com/MonochromeCode/MonochromeCode/main/assets/handshake.gif" width="70px" height="40px"> Connect Me Via
 
 <p align="center">
   <a href="https://github.com/MonochromeCode" target="_blank">
@@ -165,11 +165,11 @@
 
 
 <div align="center">
-  :heart_eyes: 感谢访问我的主页，祝你今天愉快！:wink: <br/>
+  :heart_eyes: Thanks for watching my profile! Have a nice day! :wink: <br/>
   &copy; 2026 MonochromeCode
 </div>
 
 
 ---
 
-最后编辑于 2026/10/02
+Last Edited on 2026/10/02

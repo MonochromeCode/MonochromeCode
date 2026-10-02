@@ -22,6 +22,7 @@
 - 💻 Public repositories: `6` · On GitHub since `2019`
 - 🐍 Also build `Python` automation / quant tools in spare time
 - ⚙️ Daily stack: `Java` · `Spring Boot` · `MySQL` · `Redis` · `Maven`
+- 🤖 AI tools: `Codex` · `Claude` · `GitHub Copilot` · `Gemini`
 - 📫 Email: [flyyon@163.com](mailto:flyyon@163.com)
 - 💬 Ask me about **Java**, **Spring**, **backend**, **microservices**
 
@@ -37,6 +38,14 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="linux" width="40" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="git" width="40" height="40" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python" width="40" height="40" />
+</p>
+
+<p align="left">
+  <img src="https://img.shields.io/badge/OpenAI%20Codex-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI Codex" />
+  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/Anthropic-191919?style=for-the-badge&logo=anthropic&logoColor=white" alt="Anthropic" />
+  <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=for-the-badge&logo=githubcopilot&logoColor=white" alt="GitHub Copilot" />
+  <img src="https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white" alt="Gemini" />
 </p>
 
 ## 📌 Featured Projects

@@ -13,7 +13,7 @@ on:
   # 推送时重新运行程序
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:

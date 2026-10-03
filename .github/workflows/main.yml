@@ -14,6 +14,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - "assets/.last-generated"
 
 jobs:
   build:
@@ -36,9 +38,16 @@ jobs:
             ./assets/github-contribution-grid-snake.svg
             ./assets/github-contribution-grid-snake-dark.svg?palette=github-dark
 
+      - name: Touch timestamp for guaranteed commit
+        run: |
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > assets/.last-generated
+          echo "run_id=${{ github.run_id }}" >> assets/.last-generated
+          echo "event=${{ github.event_name }}" >> assets/.last-generated
+
       - name: Push to GitHub
         uses: EndBug/add-and-commit@v11
         with:
           add: "assets"
-          default_author: github_actions
+          author_name: MonochromeCode
+          author_email: 49807636+MonochromeCode@users.noreply.github.com
           message: "Generate Github contribution heatmap animation"

@@ -10,14 +10,13 @@ on:
   # allows to manually run the job at any time
   workflow_dispatch:
 
-  # 推送到 main 时重新生成
+  # 推送非 assets 变更时重新生成
   push:
     branches:
       - main
     paths-ignore:
       - "assets/**"
 
-# 避免多个任务同时推送 main 互相冲突
 concurrency:
   group: generate-animation
   cancel-in-progress: false
@@ -25,7 +24,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-24.04
-    timeout-minutes: 10
+    timeout-minutes: 15
     permissions:
       contents: write
 
@@ -35,28 +34,55 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Pick snake style for this run
+        id: style
+        run: |
+          colors=(green lime orange gold tomato deepskyblue mediumorchid hotpink cyan coral)
+          idx=$(( ${{ github.run_number }} % ${#colors[@]} ))
+          snake="${colors[$idx]}"
+          echo "snake=${snake}" >> "$GITHUB_OUTPUT"
+          echo "Using color_snake=${snake}"
+
+      - name: Record run timestamp
+        run: |
+          {
+            echo "generated_at=$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+            echo "run_id=${{ github.run_id }}"
+            echo "run_number=${{ github.run_number }}"
+            echo "event=${{ github.event_name }}"
+            echo "color_snake=${{ steps.style.outputs.snake }}"
+          } > assets/.last-generated
+
+      - name: Commit timestamp first
+        uses: EndBug/add-and-commit@v11
+        with:
+          add: "assets/.last-generated"
+          author_name: MonochromeCode
+          author_email: 49807636+MonochromeCode@users.noreply.github.com
+          message: "chore: bump contribution keepalive"
+          pull: --no-rebase --no-edit
+          push_attempts: "5"
+
+      - name: Wait for contribution graph refresh
+        run: sleep 45
+
       - name: Generate Snake
         uses: Platane/snk@v3
         id: snake-animation
         with:
           github_user_name: MonochromeCode
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
-            ./assets/github-contribution-grid-snake.gif
-            ./assets/github-contribution-grid-snake.svg
-            ./assets/github-contribution-grid-snake-dark.svg?palette=github-dark
+            ./assets/github-contribution-grid-snake.gif?color_snake=${{ steps.style.outputs.snake }}
+            ./assets/github-contribution-grid-snake.svg?color_snake=${{ steps.style.outputs.snake }}
+            ./assets/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=${{ steps.style.outputs.snake }}
 
-      - name: Touch timestamp for guaranteed commit
-        run: |
-          date -u +"%Y-%m-%dT%H:%M:%SZ" > assets/.last-generated
-          echo "run_id=${{ github.run_id }}" >> assets/.last-generated
-          echo "event=${{ github.event_name }}" >> assets/.last-generated
-
-      - name: Push to GitHub
+      - name: Commit updated snake
         uses: EndBug/add-and-commit@v11
         with:
           add: "assets"
           author_name: MonochromeCode
           author_email: 49807636+MonochromeCode@users.noreply.github.com
           message: "Generate Github contribution heatmap animation"
-          pull: --rebase --autostash
+          pull: --no-rebase --no-edit
           push_attempts: "5"

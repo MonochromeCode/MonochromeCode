@@ -3,9 +3,11 @@
 name: Generate Animation
 
 on:
-  # run automatically every 12 hours (UTC)
+  # 避开整点和 :30 高峰，降低 GitHub 丢弃定时任务的概率
+  # 北京时间每天 07:17、16:17
   schedule:
-    - cron: "30 8,23 * * *"
+    - cron: "17 7,16 * * *"
+      timezone: Asia/Shanghai
 
   # allows to manually run the job at any time
   workflow_dispatch:

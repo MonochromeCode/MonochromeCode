@@ -15,7 +15,12 @@ on:
     branches:
       - main
     paths-ignore:
-      - "assets/.last-generated"
+      - "assets/**"
+
+# 避免多个任务同时推送 main 互相冲突
+concurrency:
+  group: generate-animation
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -27,6 +32,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Generate Snake
         uses: Platane/snk@v3
@@ -51,3 +58,5 @@ jobs:
           author_name: MonochromeCode
           author_email: 49807636+MonochromeCode@users.noreply.github.com
           message: "Generate Github contribution heatmap animation"
+          pull: --rebase --autostash
+          push_attempts: "5"

@@ -1,17 +1,13 @@
-# GitHub Action for generating a contribution graph with a snake eating your contributions.
+# Independent scheduled workflow (new file so GitHub registers a fresh schedule).
+# The original main.yml was created while this repo was still a fork;
+# GitHub disables cron on forks and may never attach schedule to that old workflow.
 
-name: Generate Animation
+name: Hourly Animation
 
 on:
-  # 定时改由 hourly.yml 负责（新建工作流，避免 fork 遗留的 schedule 不触发）
+  schedule:
+    - cron: "23 * * * *"
   workflow_dispatch:
-
-  # 推送非 assets 变更时重新生成
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - "assets/**"
 
 concurrency:
   group: generate-animation

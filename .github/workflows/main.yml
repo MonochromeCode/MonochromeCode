@@ -3,10 +3,10 @@
 name: Generate Animation
 
 on:
-  # 使用纯 UTC cron（更稳妥）。对应北京时间每天 07:17、16:17
-  # UTC 23:17 -> BJT 07:17；UTC 08:17 -> BJT 16:17
+  # 每 2 小时一次（UTC 偶数点 :17），避开整点/:30 高峰
+  # 对应北京时间 08:17、10:17 ... 06:17
   schedule:
-    - cron: "17 8,23 * * *"
+    - cron: "17 */2 * * *"
 
   # allows to manually run the job at any time
   workflow_dispatch:

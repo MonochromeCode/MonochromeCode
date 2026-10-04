@@ -2,11 +2,12 @@
 # The original main.yml was created while this repo was still a fork;
 # GitHub disables cron on forks and may never attach schedule to that old workflow.
 
-name: Hourly Animation
+name: Daily Animation
 
 on:
+  # 北京时间每天 21:40 = UTC 13:40
   schedule:
-    - cron: "23 * * * *"
+    - cron: "40 13 * * *"
   workflow_dispatch:
 
 concurrency:

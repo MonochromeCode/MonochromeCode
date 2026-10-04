@@ -3,10 +3,10 @@
 name: Generate Animation
 
 on:
-  # 每 2 小时一次（UTC 偶数点 :17），避开整点/:30 高峰
-  # 对应北京时间 08:17、10:17 ... 06:17
+  # 每小时一次（UTC :17），避开整点/:30 高峰
+  # 对应北京时间每小时 17 分
   schedule:
-    - cron: "17 */2 * * *"
+    - cron: "17 * * * *"
 
   # allows to manually run the job at any time
   workflow_dispatch:
